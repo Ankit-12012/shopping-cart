@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "cart.html",
+      "src": "**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/cart.html"
+      "dest": "/index.html",
+      "continue": true
     }
   ]
 }
