@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./cart.js"></script>
+    <link rel="stylesheet" href="cart.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">HOME MART</h1>
+    <div id="nav">
+      <img src="./images/cart.jpg" alt="" id="cartimg" onclick="showCart()" />
+    </div>
+    <p id="showcart"></p>
+    <div id="cart">
+      <h2 style="background-color: blanchedalmond">ELECTRONICS</h2>
+      <h3 id="eitem">Total item=5 <br />Choosen item=0</h3>
+      <div id="electronics">
+        <div id="laptop">
+          <img src="./images/laptop.jpg" alt="" class="img" />
+          <h4>Laptop</h4>
+          <h4>2,00,000/-</h4>
+          <button onclick="addCart(1)" id="btn1">add to cart</button>
+        </div>
+        <div id="mobile">
+          <img src="./images/mobile.jpg" alt="" class="img" />
+          <h4>Mobile</h4>
+          <h4>1,50,000/-</h4>
+          <button onclick="addCart(2)" id="btn2">add to cart</button>
+        </div>
+        <div id="tab">
+          <img src="./images/tab.jpg" alt="" class="img" />
+          <h4>Tablet</h4>
+          <h4>1,00,000/-</h4>
+          <button onclick="addCart(3) " id="btn3">add to cart</button>
+        </div>
+        <div id="headphone">
+          <img src="./images/headphone.jpg" alt="" class="img" />
+          <h4>Headphone</h4>
+          <h4>60,000/-</h4>
+          <button onclick="addCart(4) " id="btn4">add to cart</button>
+        </div>
+        <div id="eapbud">
+          <img src="./images/earbud.jpg" alt="" class="img" />
+          <h4>Earbud</h4>
+          <h4>25,000/-</h4>
+          <button onclick="addCart(5)" id="btn5">add to cart</button>
+        </div>
+      </div>
+
+      <div id="grocery"></div>
+    </div>
+  </body>
+</html>
