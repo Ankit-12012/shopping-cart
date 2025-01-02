@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/cart.html",
+      "dest": "/index.html",
       "continue": true
     }
   ]
